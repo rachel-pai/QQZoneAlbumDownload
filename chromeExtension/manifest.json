@@ -1,0 +1,15 @@
+{
+  "name": "Download QQ zone albums",
+  "description": "下载qq空间相册中的图片",
+  "version": "0.1",
+  "minimum_chrome_version": "16.0.884",
+  "permissions": ["downloads", "<all_urls>"],
+  "browser_action": {"default_popup": "popup.html"},
+  "icons": {
+    "16": "pics/get_started.png",
+    "32": "pics/get_started.png",
+    "48": "pics/get_started.png",
+    "128": "pics/get_started.png"
+  },
+  "manifest_version": 2
+}
